@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta property="og:image" content="./images/pfp.jpg">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+	<title>My Capstone Project</title>
+</head>
+<body>
+
+
+  <div class="me">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse button1" id="navbarNav">
+        <ul class="navbar-nav justify-content-center align-items-center">
+           <li><a class="custom-button" href="#Home">Home</a></li>
+           <li><a class="custom-button" href="#About-Us">About Us</a></li>
+           <li><a class="custom-button" href="#Projects">Projects</a></li>
+           <li><a class="custom-button" href="#skills">Skills</a></li>
+           <li><a class="custom-button" href="#Contact">Contact Us</a></li>    
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<div id="Home" class="first">
+	<div class="container">
+		<img  src="./images/pfp.jpg" class="pfp rounded-circle img-fluid">
+	</div>
+
+	<h2 class="dev mt-4 text-center">Full Stack Web Developer</h2>
+
+	<h5 class="body-text text-center mt-3">Hi!! My Name is Euan Acio and welcome to my PORTFOLIO, and im a student from POGCS, im also a student taking a web dev course from ZUITT, and also i love to draw and making some anime stuffs, Want to learn more about me?</h5>
+
+
+	<div class="button2">
+	  <a href="#About-Us" class="custom-button">Learn More!!</a>
+	</div>
+</div>
+
+
+<!-- About us -->
+ <div id="About-Us" class="me2">
+    <h1 class="header2"></h1>
+    <h4 class="header3 text-light text-center">ABOUT US ,Hello And Welcome again as you may know i made a brief introduction earlier,Again My Name Is Euan Acio a Full Stack Web Dev and you will gonna learn a lot about me on this portfolio, Youll see some of my arts made by but most them that i did is based on anime characters so i used many reference, As well in my Coding lessons im still on my way mastering these languages so that i can fullfil my dream course and make use of it in the future, Hope Youll Enjoy Browsing in this porfolio!! </h4>
+</div>
+<!-- end of about us -->
+
+<!-- Projects -->
+  <div id="Projects" class="me3">
+  
+    <h1 class="project-header text-center text-light">Projects</h1>
+    <h4 class="text-center header4">Heres a Preview of The Projects i made Recently, So Basically I Love to Draw</h4>
+    
+
+    <div class="card-container text-center justify-content-center">
+    
+      <div class="panel ml-3 text-light">
+        <h5 class="card-title">Makima</h5>
+        <p class="card-text"><img src="./images/makima.jpg"></p>
+        <p>This Was My Most Recent made drawing and one of m favorites</p>
+      </div>
+      <div class="panel ml-5 mr-5 text-light">
+        <h5 class="card-title">Secre Swallowtail</h5>
+        <p class="image2 card-text"><img src="./images/Secre.jpg"></p>
+
+        <p>One of my second favorites too and i have fun doing her</p>
+      </div>
+      <div class="panel  mr-3 text-light">
+        <h5 class="card-title">KDA Akali</h5>
+        <p class="card-text"><img src="./images/Akali.jpg"></p>
+        <p>One of my fav characs in League but its unfinieshed XD</p>
+      </div>
+  </div>
+</div>
+<!-- End of Projects -->
+
+<!-- Start of Skills -->
+
+<div id="skills" class="me4">
+  <h1 class="header text-center">Skills</h1>
+  <h4 class="text-center">Here Are Some Of My Other Skills!!</h4>
+
+  <div class="card-container text-center justify-content-center text-light">
+    <div class="panel ml-3">
+      <h5 class="card-title">BOOTSTRAP</h5>
+      <p class="card-text"><img class="mt-4" src="./images/Bootstrap.png"></p>
+      <p class="mt-4">Bootstrap Was Fairly Easy To learn except for the grid and column System</p>
+    </div>
+    <div class="panel ml-5 mr-5">
+      <h5 class="card-title">CSS</h5>
+      <p class="image2 card-text"><img src="./images/CSS.png"></p>
+      <p class="mt-2">Same Goes With CSS i had A lot of fun using this Specialy When using animations</p>
+    </div>
+    <div class="panel mr-3">
+      <h5 class="card-title">HTML</h5>
+      <p class="card-text"><img src="./images/HTML.png"></p>
+      <p class="mt-2">And Ofcourse the other two wont work without HTMl and HTML is also Simple to learn</p>
+    </div>
+  </div>
+</div>
+
+ <!-- End of Skills -->
+
+ <!-- Start of Contact Us -->
+
+ <div id="Contact" class="me5">
+      <h1 class="header text-center">Contact Us</h1>
+      <h4 class="text-center">Im Happy To Get Some feedbacks!!</h4>
+
+      <div id="confirmation-modal" class="confirmation-modal">
+        <div class="modal-content">
+          <h2>Confirmation</h2>
+          <p>Your message has been sent successfully.</p>
+          <button id="close-modal-btn">Close</button>
+        </div>
+      </div>
+
+      <div class="glass-effect mt-5">
+        <h2 class="contact-title">Contact Us</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Contact Number">
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Message"></textarea>
+          </div>
+          <button id="send-message-btn" type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <!-- End of Contact Us -->
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="./index.js"></script>
+
+
+
+
+<!-- Bootstrap Script -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
